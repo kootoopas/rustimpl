@@ -40,7 +40,7 @@ mod tests {
             Ok(sorted) => assert_eq!(sorted.to_vec(), vec![2, 3, 5, 5, 6, 8, 9]),
             Err(_) => {}
         }
-        
+
     }
 
     #[test]
