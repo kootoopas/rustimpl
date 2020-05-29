@@ -7,6 +7,19 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "find 3 largest nums",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=3largestnums"
+                ]
+            },
+            "program": "${cargo:program}",
+            "args": []
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "bubblesort",
             "cargo": {
                 "args": [
